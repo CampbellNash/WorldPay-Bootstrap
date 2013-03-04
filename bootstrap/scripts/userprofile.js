@@ -6,6 +6,7 @@
         // Ensure that the SP.UserProfiles.js file is loaded before the custom code runs.
         //SP.SOD.executeOrDelayUntilScriptLoaded(loadUserData, 'sp.userprofiles.js');
         SP.SOD.executeFunc('sp.userprofiles.js', 'SP.ClientContext', loadUserData);
+
     });
 
 
